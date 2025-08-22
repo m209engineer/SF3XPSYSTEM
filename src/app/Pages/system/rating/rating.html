@@ -1,0 +1,81 @@
+<app-navbar></app-navbar>
+<div class="rating-container">
+  <div class="rating-header">
+    <h2>Reyting</h2>
+    <div class="controls">
+      <div class="sort-container">
+        <div class="sort-buttons">
+          <button *ngFor="let option of sortOptions" 
+                  [class.active]="selectedSort === option.value"
+                  (click)="onSortChange(option.value)">
+            {{ option.label }}
+          </button>
+        </div>
+        <div class="month-selector">
+          <label>Oy tanlang:</label>
+          <select (change)="onMonthChange($event)">
+            <option value="" [selected]="!selectedMonth">Umumiy</option>
+            <option *ngFor="let month of availableMonths" [value]="month" [selected]="month === selectedMonth">
+              {{ month }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-container">
+    <div class="month-title" *ngIf="selectedMonth">
+      <span>{{ selectedMonth }} oyi bo'yicha</span>
+      <button class="reset-button" (click)="resetMonth()">Bekor qilish</button>
+    </div>
+    <table class="ranking-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th class="student-col">Talaba</th>
+          <th class="stat-col">Dav.</th>
+          <th class="stat-col">Uy v.</th>
+          <th class="stat-col">Top.</th>
+          <th class="stat-col">Jar.</th>
+          <th class="total-col">XP</th>
+          <th class="level-col">Daraja</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of ranking" [class.current-student]="item.student.id === currentStudent?.id">
+          <td class="rank-col">
+            <span class="rank-badge">{{ item.rank }}</span>
+          </td>
+          <td class="student-col">
+            <div class="student-info">
+              <img *ngIf="!isMobile" [src]="item.student.image" alt="Avatar" class="avatar">
+              <span class="student-name">{{ item.student.name.split(' ')[0] }}</span>
+            </div>
+          </td>
+          <td class="stat-col">
+            {{ getTotal(item.student, 'davomat') }}
+          </td>
+          <td class="stat-col">
+            {{ getTotal(item.student, 'uy_vazifa') }}
+          </td>
+          <td class="stat-col">
+            {{ getTotal(item.student, 'tasks') }}
+          </td>
+          <td class="stat-col">
+            {{ getTotal(item.student, 'jarima') }}
+          </td>
+          <td class="total-col">
+            <div class="xp-wrapper">
+              <!-- <span class="icon-wrapper total"><i class="fas fa-star"></i></span> -->
+              <span class="xp-value">{{ item.totalXP }}</span>
+            </div>
+          </td>
+          <td class="level-col">
+            <span class="level-badge">{{ item.level }}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

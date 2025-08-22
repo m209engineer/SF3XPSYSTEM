@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "Muhammadaziz Nurmuhammadov",
+    "username": "azizbek",
+    "password": "aziz123",
+    "image": "https://avatars.mds.yandex.net/i?id=c4ac2bcef802065b697ec17403c77c2ea228d775-4236172-images-thumbs&n=13",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 22, "uy_vazifa": 8, "tasks": 6, "jarima": 2 },
+      "2024-02": { "davomat": 20, "uy_vazifa": 9, "tasks": 7, "jarima": 1 },
+      "2024-03": { "davomat": 18, "uy_vazifa": 10, "tasks": 8, "jarima": 3 }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dilnoza Xasanova",
+    "username": "dilnoza",
+    "password": "dilnoza123",
+    "image": "https://example.com/images/dilnoza.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 24, "uy_vazifa": 10, "tasks": 9, "jarima": 0 },
+      "2024-02": { "davomat": 23, "uy_vazifa": 11, "tasks": 10, "jarima": 0 },
+      "2024-03": { "davomat": 25, "uy_vazifa": 12, "tasks": 11, "jarima": 1 }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Javohir Rasulov",
+    "username": "javohir",
+    "password": "java123",
+    "image": "https://example.com/images/javohir.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 19, "uy_vazifa": 7, "tasks": 5, "jarima": 4 },
+      "2024-02": { "davomat": 17, "uy_vazifa": 6, "tasks": 4, "jarima": 3 },
+      "2024-03": { "davomat": 20, "uy_vazifa": 8, "tasks": 6, "jarima": 2 }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bahodir Rashidov",
+    "username": "baha",
+    "password": "baha123",
+    "image": "https://example.com/images/bahodir.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 10, "uy_vazifa": 7, "tasks": 5, "jarima": 4 },
+      "2024-02": { "davomat": 17, "uy_vazifa": 6, "tasks": 4, "jarima": 3 },
+      "2024-03": { "davomat": 20, "uy_vazifa": 9, "tasks": 6, "jarima": 6 }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sardor Yusupov",
+    "username": "sardor",
+    "password": "sardor456",
+    "image": "https://example.com/images/sardor.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 21, "uy_vazifa": 9, "tasks": 7, "jarima": 1 },
+      "2024-02": { "davomat": 22, "uy_vazifa": 8, "tasks": 6, "jarima": 2 },
+      "2024-03": { "davomat": 19, "uy_vazifa": 10, "tasks": 8, "jarima": 0 }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Feruza Murodova",
+    "username": "feruza",
+    "password": "feruza789",
+    "image": "https://example.com/images/feruza.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 25, "uy_vazifa": 12, "tasks": 10, "jarima": 0 },
+      "2024-02": { "davomat": 24, "uy_vazifa": 11, "tasks": 9, "jarima": 1 },
+      "2024-03": { "davomat": 26, "uy_vazifa": 13, "tasks": 12, "jarima": 0 }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Akbar Xolmatov",
+    "username": "akbar",
+    "password": "akbar101",
+    "image": "https://example.com/images/akbar.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 18, "uy_vazifa": 6, "tasks": 4, "jarima": 3 },
+      "2024-02": { "davomat": 16, "uy_vazifa": 5, "tasks": 3, "jarima": 4 },
+      "2024-03": { "davomat": 19, "uy_vazifa": 7, "tasks": 5, "jarima": 2 }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nargiza Karimova",
+    "username": "nargiza",
+    "password": "nargiza202",
+    "image": "https://example.com/images/nargiza.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 23, "uy_vazifa": 9, "tasks": 8, "jarima": 1 },
+      "2024-02": { "davomat": 21, "uy_vazifa": 10, "tasks": 7, "jarima": 0 },
+      "2024-03": { "davomat": 22, "uy_vazifa": 11, "tasks": 9, "jarima": 1 }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Shaxzod Olimov",
+    "username": "shaxzod",
+    "password": "shax123",
+    "image": "https://example.com/images/shaxzod.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 26, "uy_vazifa": 11, "tasks": 10, "jarima": 0 },
+      "2024-02": { "davomat": 25, "uy_vazifa": 12, "tasks": 11, "jarima": 0 },
+      "2024-03": { "davomat": 27, "uy_vazifa": 13, "tasks": 12, "jarima": 1 }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Zilola Tursunova",
+    "username": "zilola",
+    "password": "zilola303",
+    "image": "https://example.com/images/zilola.jpg",
+    "level": "OK",
+    "months": {
+      "2024-01": { "davomat": 17, "uy_vazifa": 5, "tasks": 4, "jarima": 5 },
+      "2024-02": { "davomat": 15, "uy_vazifa": 6, "tasks": 3, "jarima": 3 },
+      "2024-03": { "davomat": 18, "uy_vazifa": 7, "tasks": 5, "jarima": 2 }
+    }
+  }
+]
